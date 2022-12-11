@@ -1,0 +1,70 @@
+.main{
+    padding: 209px;
+    background-color: rgb(212, 212, 212);
+}
+
+.container{
+    width: 600px;
+    height: 500px;
+    box-shadow: 0 0 20px rgb(0,0,0,0.2);
+    background-color: #fafafa;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+p.bio{
+    text-align: center;
+    font-size: 16px;
+}
+
+img.profile{
+    width: 180px;
+    height: 180px;
+    border-radius:50%;
+    border: 10px solid#fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -90px;
+}
+
+h1.name{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20px;
+}
+
+span.text{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(#333, .7);
+    margin-bottom: 10px;
+}
+
+hr{
+    width: 500px;
+    height: 2px;
+    margin-bottom: 20px;
+}
+
+.social ul li a{
+    color: black;
+}
+
+.social ul{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+}
+
+.social ul li{
+    display: inline-block;
+    padding: 2px;
+}
